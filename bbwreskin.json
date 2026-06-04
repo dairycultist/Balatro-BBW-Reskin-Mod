@@ -1,0 +1,14 @@
+{
+	"id": "bbwreskin",
+	"name": "Balatro BBW Reskin Mod",
+	"display_name": "Balatro BBW Reskin Mod",
+	"author": [ "RedderBlanket" ],
+	"description": "I like these sprites a normal amount",
+	"prefix": "bbwreskin_",
+	"main_file": "bbwreskin.lua",
+	"priority": 0,
+	"badge_colour": "",
+	"badge_text_colour": "",
+	"version": "1.0.0",
+	"dependencies": []
+}
