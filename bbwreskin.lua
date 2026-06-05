@@ -115,3 +115,50 @@ SMODS.DeckSkin({
 		},
 	},
 })
+
+if next(SMODS.find_mod("SixSuits")) then
+
+	SMODS.DeckSkin({
+		key = "bbwreskin_moons",
+		suit = "six_Moons",
+		loc_txt = "Balatro BBW Reskin Mod",
+		palettes = {
+			{
+				key = "lc",
+				ranks = { "Jack", "Queen", "King" },
+				display_ranks = { "King", "Queen", "Jack" },
+				atlas = hearts_atlas.key,
+				pos_style = "collab"
+			},
+			{
+				key = "hc",
+				ranks = { "Jack", "Queen", "King" },
+				display_ranks = { "King", "Queen", "Jack" },
+				atlas = hearts_atlas.key,
+				pos_style = "collab"
+			},
+		},
+	})
+
+	SMODS.DeckSkin({
+		key = "bbwreskin_stars",
+		suit = "six_Stars",
+		loc_txt = "Balatro BBW Reskin Mod",
+		palettes = {
+			{
+				key = "lc",
+				ranks = { "Jack", "Queen", "King" },
+				display_ranks = { "King", "Queen", "Jack" },
+				atlas = hearts_atlas.key,
+				pos_style = "collab"
+			},
+			{
+				key = "hc",
+				ranks = { "Jack", "Queen", "King" },
+				display_ranks = { "King", "Queen", "Jack" },
+				atlas = hearts_atlas.key,
+				pos_style = "collab"
+			},
+		},
+	})
+end
