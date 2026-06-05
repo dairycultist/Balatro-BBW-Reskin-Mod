@@ -127,7 +127,7 @@ if next(SMODS.find_mod("SixSuits")) then
 
 	local stars_atlas = SMODS.Atlas({
 		key = "bbwreskin_stars",
-		path = "bbwreskin_moons.png",
+		path = "bbwreskin_stars.png",
 		px = 71,
 		py = 95,
 	})
