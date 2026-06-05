@@ -118,6 +118,20 @@ SMODS.DeckSkin({
 
 if next(SMODS.find_mod("SixSuits")) then
 
+	local moons_atlas = SMODS.Atlas({
+		key = "bbwreskin_moons",
+		path = "bbwreskin_moons.png",
+		px = 71,
+		py = 95,
+	})
+
+	local stars_atlas = SMODS.Atlas({
+		key = "bbwreskin_stars",
+		path = "bbwreskin_moons.png",
+		px = 71,
+		py = 95,
+	})
+
 	SMODS.DeckSkin({
 		key = "bbwreskin_moons",
 		suit = "six_Moons",
@@ -127,14 +141,14 @@ if next(SMODS.find_mod("SixSuits")) then
 				key = "lc",
 				ranks = { "Jack", "Queen", "King" },
 				display_ranks = { "King", "Queen", "Jack" },
-				atlas = hearts_atlas.key,
+				atlas = moons_atlas.key,
 				pos_style = "collab"
 			},
 			{
 				key = "hc",
 				ranks = { "Jack", "Queen", "King" },
 				display_ranks = { "King", "Queen", "Jack" },
-				atlas = hearts_atlas.key,
+				atlas = moons_atlas.key,
 				pos_style = "collab"
 			},
 		},
@@ -149,14 +163,14 @@ if next(SMODS.find_mod("SixSuits")) then
 				key = "lc",
 				ranks = { "Jack", "Queen", "King" },
 				display_ranks = { "King", "Queen", "Jack" },
-				atlas = hearts_atlas.key,
+				atlas = stars_atlas.key,
 				pos_style = "collab"
 			},
 			{
 				key = "hc",
 				ranks = { "Jack", "Queen", "King" },
 				display_ranks = { "King", "Queen", "Jack" },
-				atlas = hearts_atlas.key,
+				atlas = stars_atlas.key,
 				pos_style = "collab"
 			},
 		},
