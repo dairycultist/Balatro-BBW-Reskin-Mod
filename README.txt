@@ -1,13 +1,18 @@
-HOW TO INSTALL
+COMPATIBILITIES:
 
-If you haven't already, download the following two mods (needed for all Balatro mods, I think):
+This mod is compatible with the Six Suits mod (adding reskins for the two new suits it adds) https://balatromods.miraheze.org/wiki/Six_Suits
 
-- Lovely
-- Steammodded
+HOW TO INSTALL:
 
-And drag and drop those, alongside the folder this README is in (aka this mod), into the mod folder. Then you're done!
+If you haven't modded Balatro before, you need these two prerequisites (necessary for all Balatro mods I think):
 
-To find the mod folder:
+1. Install Lovely by following the install guide (not a mod, but a runtime injector) github.com/ethangreen-dev/lovely-injector/releases/latest
+2. Download Steamodded and put it in the mod folder (see below) https://github.com/Steamodded/smods/releases/latest
+
+To install this mod, simply put the folder this README is in (aka this mod) into the mod folder.
+
+HOW TO FIND THE MOD FOLDER:
+
 1. Right click Balatro in Steam > Manage > Browse local files
 2. It will open the file explorer; go up two folders to the steamapps folder
 3. From steamapps, navigate into compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro
