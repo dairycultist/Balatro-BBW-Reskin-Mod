@@ -6,7 +6,7 @@ HOW TO INSTALL:
 
 If you haven't modded Balatro before, you need these two prerequisites (necessary for all Balatro mods I think):
 
-1. Install Lovely by following the install guide (not a mod, but a runtime injector) github.com/ethangreen-dev/lovely-injector/releases/latest
+1. Install Lovely by following the install guide (not a mod, but a runtime injector) https://github.com/ethangreen-dev/lovely-injector/releases/latest
 2. Download Steamodded and put it in the mod folder (see below) https://github.com/Steamodded/smods/releases/latest
 
 To install this mod, simply put the folder this README is in (aka this mod) into the mod folder.
